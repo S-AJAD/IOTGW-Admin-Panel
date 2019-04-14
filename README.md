@@ -1,6 +1,6 @@
-# IOTGW-Admin-Panel
-Internet Engineering Course project - FUM
-Based on ASP.NET Core and React
+# IOT Gateway Admin Panel
+Internet Engineering Course project - FUM.
+Based on ASP.NET Core and React.
 
 ## Usage 
 
