@@ -4,9 +4,10 @@ Based on ASP.NET Core and React
 
 ## Usage 
 Needed Apps:
-[Git] (https://git-scm.com/downloads)
-[NPM] (https://nodejs.org/en/download/)
-[ASP.NET-SDK] (https://dotnet.microsoft.com/download/dotnet-core/3.0)
+[Git](https://git-scm.com/downloads)
+[NPM](https://nodejs.org/en/download/)
+[ASP.NET-SDK](https://dotnet.microsoft.com/download/dotnet-core/3.0)
+
 ### Preapare for run
 ``` bash
 # clone the repo
