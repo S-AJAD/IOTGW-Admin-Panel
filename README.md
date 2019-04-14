@@ -2,9 +2,9 @@
 Internet Engineering Course project - FUM
 Based on ASP.NET Core and React
 
-# Install Dependencies
+# Usage 
 
-### Clone repo
+### Clone repo and Install Dependencies
 ``` bash
 # clone the repo
 $ git clone https://github.com/Goldenstarc/IOTGW-Admin-Panel.git IOTGW-Admin-Panel
@@ -14,7 +14,7 @@ $ cd ClientSide
 $ npm install
 ```
 
-## Usage
+### Run
 first install .NetCore SDK from Mifrosoft site
 
 ``` bash
