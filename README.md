@@ -2,7 +2,7 @@
 Internet Engineering Course project - FUM
 Based on ASP.NET Core and React
 
-# Usage 
+## Usage 
 
 ### Preapare for run
 ``` bash
@@ -33,5 +33,5 @@ $ dotnet run
 ## Versions
 IOTGW-Admin-Panel is on Alpha version
 
-# Licenes 
+## Licenes 
 None!
