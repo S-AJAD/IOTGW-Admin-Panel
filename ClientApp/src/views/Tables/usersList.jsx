@@ -7,12 +7,12 @@ import {
 import Card from 'components/Card/Card.jsx';
 import Button from 'elements/CustomButton/CustomButton.jsx';
 import {
-    gateway_thArray,
-    gateway_tdArray
+    users_thArray,
+    users_tdArray
 } from 'variables/Variables.jsx';
 import { Link } from 'react-router-dom';
 
-class gatewayList extends Component {
+class usersList extends Component {
     render() {
         return (
             <div className="main-content">
@@ -20,7 +20,7 @@ class gatewayList extends Component {
                     <Row>
                         <Col md={12}>
                             <Card
-                                title="Gateway list"
+                                title="Users list"
                                 tableFullWidth
                                 content={
                                     <Table striped hover responsive>
@@ -29,7 +29,7 @@ class gatewayList extends Component {
                                                 <th>#</th>
 
                                                 {
-                                                    gateway_thArray.map((prop, key) => {
+                                                    users_thArray.map((prop, key) => {
                                                         return (
                                                             <th key={key}>{prop}</th>
                                                         );
@@ -40,7 +40,7 @@ class gatewayList extends Component {
                                         </thead>
                                         <tbody>
                                             {
-                                                gateway_tdArray.map((prop, key) => {
+                                                users_tdArray.map((prop, key) => {
                                                     return (
 
                                                         <tr key={key}>
@@ -71,9 +71,9 @@ class gatewayList extends Component {
                                     </Table>
                                 }
                                 legend={
-                                    <Link to="/gateway/add" >
+                                    <Link to="/users/add" >
                                         <Button bsStyle="info" fill wd>
-                                            Add Gateway
+                                            Add User
                                         </Button>
                                     </Link>
                                 }
@@ -88,4 +88,4 @@ class gatewayList extends Component {
     }
 }
 
-export default gatewayList;
+export default usersList;

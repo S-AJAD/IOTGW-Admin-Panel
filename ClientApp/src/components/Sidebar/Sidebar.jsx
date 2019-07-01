@@ -13,6 +13,7 @@ import image from 'assets/img/full-screen-image-3.jpg';
 import avatar from 'assets/img/default-avatar.png';
 // logo for sidebar
 import logo from "logo.svg";
+import { userInfo } from 'variables/Variables.jsx';
 
 import dashRoutes from 'routes/dash.jsx';
 
@@ -68,12 +69,12 @@ class Sidebar extends Component {
             <div className="sidebar" data-color="black" data-image={image}>
                 <div className="sidebar-background" style={bgImage}></div>
                 <div className="logo">
-                    <a href="http://www.creative-tim.com" className="simple-text logo-mini">
+                    <a className="simple-text logo-mini">
                         <div className="logo-img">
                             <img src={logo} alt="react-logo" />
                         </div>
                     </a>
-                    <a href="http://www.creative-tim.com" className="simple-text logo-normal">
+                    <a className="simple-text logo-normal">
                         IOT GATEWAY
                 	</a>
                 </div>
@@ -85,14 +86,14 @@ class Sidebar extends Component {
                         <div className="info">
                             <a onClick={() => this.setState({ openAvatar: !this.state.openAvatar })}>
                                 <span>
-                                    Hamid Najafi
+                                    {userInfo.firstName + " " + userInfo.lastName}
                                     <b className={this.state.openAvatar ? "caret rotate-180" : "caret"}></b>
                                 </span>
                             </a>
                             <Collapse in={this.state.openAvatar}>
                                 <ul className="nav">
 
-                                    <Link to='/user/edit'>
+                                    <Link to='/users/edit'>
                                         <li>
                                             <a>
                                                 <span className="sidebar-mini"></span>
